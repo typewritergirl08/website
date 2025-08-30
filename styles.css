@@ -1,7 +1,31 @@
-  h1 {
+
+h1 {
     font-size: 100px;
 }
 
 h1 {
     line-height: .5;
+}
+
+  h2 {
+    font-size: 50px;
+}
+
+h2 {
+    line-height: .5;
+}
+
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+}
+
+.topnav a {
+    float: left;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 25px;
+    text-decoration: none;
+    font-size: 17px;
+
 }
