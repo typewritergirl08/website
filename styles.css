@@ -29,3 +29,23 @@ h2 {
     font-size: 17px;
 
 }
+
+.main-header {
+    display: flex;             /* Activates Flexbox layout */
+    justify-content: space-between; /* Pushes items to the ends with space in between */
+    align-items: center;       /* Vertically centers items within the header */
+    padding: 10px;             /* Add some space inside the header */
+}
+
+/* Ensure list items are also aligned if needed */
+.main-nav ul {
+    display: flex;
+    list-style: none; /* Removes bullet points */
+    padding: 0;
+    margin: 0;
+}
+
+.main-nav ul li {
+    margin-left: 20px; /* Space between links */
+}
+
