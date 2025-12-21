@@ -15,6 +15,12 @@ h2 {
     line-height: .5;
 }
 
+.site-title {
+    margin: 0;
+    text-align: center;
+}
+
+
 .topnav {
     background-color: #333;
     overflow: hidden;
@@ -48,4 +54,3 @@ h2 {
 .main-nav ul li {
     margin-left: 20px; /* Space between links */
 }
-
